@@ -5,6 +5,8 @@
 [![Model Parity](https://img.shields.io/badge/Parity-100%25%20Verified%20(500%2F500)-success)](tests/test_model_parity.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+**[▶ Try the AQX 4th-Down Decision Tool](https://AnuragVerma777.github.io/Fourth--Down-Compass/)**
+
 An end-to-end, mathematically rigorous, real-time NFL 4th-down decision engine and empirical coaching audit. The project trains monotonically constrained machine learning models on 2020–2024 NFL play-by-play data, audits all 3,997 fourth-down decisions in the held-out 2025 season with game-clustered bootstrap intervals, and delivers a self-contained, zero-dependency interactive tool for GitHub Pages.
 
 ## Project Video
