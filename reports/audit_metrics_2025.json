@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "decisions_analyzed": 3997,
+    "games_analyzed": 285,
+    "team_games_analyzed": 570,
+    "clear_go_opportunities": 1198,
+    "went_on_clear_go": 396,
+    "go_rate_on_clear_go_pct": 33.0550918196995,
+    "go_rate_95_ci": [
+      30.292355540536285,
+      36.07425074979452
+    ],
+    "wp_lost_per_team_game_pp": 37.06725863595552,
+    "wp_lost_95_ci": [
+      34.17661177750861,
+      39.87739768638788
+    ],
+    "optimal_agreement_pct": 32.299224418313734,
+    "optimal_agreement_95_ci": [
+      30.63911524100054,
+      33.91641236597475
+    ]
+  },
+  "sensitivity_5pp_haircut": {
+    "clear_go_opportunities": 1084,
+    "went_on_clear_go": 378,
+    "go_rate_on_clear_go_pct": 34.87084870848708,
+    "go_rate_95_ci": [
+      31.904717484008525,
+      37.963197644649256
+    ],
+    "wp_lost_per_team_game_pp": 34.08942302328598,
+    "wp_lost_95_ci": [
+      31.50405452469749,
+      36.61155843437901
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Raw play-by-play data (large parquet files, downloaded via script)
+data/raw/*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
