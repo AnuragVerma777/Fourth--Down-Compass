@@ -1,11 +1,17 @@
 # AQX — NFL 4th-Down Decision Tool & Empirical Audit
 
-[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen)](https://anurag-sys.github.io/aqx-hackathon/)
+[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen)](https://AnuragVerma777.github.io/Fourth--Down-Compass/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Model Parity](https://img.shields.io/badge/Parity-100%25%20Verified%20(500%2F500)-success)](tests/test_model_parity.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An end-to-end, mathematically rigorous, real-time NFL 4th-down decision engine and empirical coaching audit. The project trains monotonically constrained machine learning models on 2020–2024 NFL play-by-play data, audits all 3,997 fourth-down decisions in the held-out 2025 season with game-clustered bootstrap intervals, and delivers a self-contained, zero-dependency interactive tool for GitHub Pages.
+
+## Project Video
+
+Watch the AQX project walkthrough:
+
+[![Watch the AQX project walkthrough](https://img.youtube.com/vi/uAy3i-Tckko/hqdefault.jpg)](https://www.youtube.com/watch?v=uAy3i-Tckko)
 
 ---
 
@@ -164,8 +170,8 @@ The Win Probability model was trained strictly on 2020–2024 and audited out-of
 ### 1. Installation
 ```powershell
 # Clone the repository
-git clone https://github.com/anurag-sys/aqx-hackathon.git
-cd aqx-hackathon
+git clone https://github.com/AnuragVerma777/Fourth--Down-Compass.git
+cd Fourth--Down-Compass
 
 # Install Python dependencies
 pip install -r requirements.txt
@@ -199,14 +205,14 @@ Open [index.html](index.html) in your browser:
 python -m http.server 8000
 # Visit: http://localhost:8000
 ```
-Or view the live deployment hosted directly on [GitHub Pages](https://anurag-sys.github.io/aqx-hackathon/).
+Or view the live deployment hosted directly on [GitHub Pages](https://AnuragVerma777.github.io/Fourth--Down-Compass/).
 
 ---
 
 ## 7. Repository Layout
 
 ```
-aqx-hackathon/
+Fourth--Down-Compass/
 │
 ├── index.html                     # Standalone GitHub Pages web application (Client-side ML)
 ├── requirements.txt               # Minimal Python dependencies
